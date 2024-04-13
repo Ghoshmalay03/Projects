@@ -1,16 +1,18 @@
+//WAP to make a user friendly application which provides the student's informations after they enter their respective class and roll no..
 #include<stdio.h>
 #include<math.h>
 int main(){
     int class, roll;
 
-    printf("Kindly enter your class: ");
+    printf("\t\t\t\t\t\t\t ...Welcome to Malay's coding world... \n");
+    printf("Kindly enter your class: ");                                                    //Asks the user to enter their class
     scanf("%d", &class);
-    switch(class){
-        case 1 : printf("You belong to 1st standard. Kindly enter your further details. \n");
-        printf("Enter your roll number: ");
+    switch(class){                                                                                   //switches among class 1 to 12, with the respective cases 1 to 12
+        case 1 : printf("You belong to 1st standard. Kindly enter your further details. \n");                   
+        printf("Enter your roll number: ");                                                          //Asks the user to enter their roll no. either 1 or 2               
         scanf("%d", &roll);
-        if(roll<=1 && roll >= 1){
-        printf("Name - Malay Ghosh \n");
+        if(roll<=1 && roll >= 1){                           //if, else if, else is used to provide the condition
+        printf("Name - Malay Ghosh \n");                    //contails the user deatils...
         printf("Class - 1 \t");
         printf("Roll no. - %d \n", roll);
         printf("Registraion no. - 12321607 \n");
@@ -24,7 +26,7 @@ int main(){
 	}
         break;
 
-        case 2 : printf("You belong to 2nd standard. Kindly enter your further details. \n");
+        case 2 : printf("You belong to 2nd standard. Kindly enter your further details. \n");       //similarly, case 2 is made...
         printf("Enter your roll number: ");
         scanf("%d", &roll);
         if(roll<=1 && roll >= 1){
@@ -42,7 +44,7 @@ int main(){
 	}
         break;
 
-        case 3 : printf("You belong to 3rd standard. Kindly enter your further details. \n");
+        case 3 : printf("You belong to 3rd standard. Kindly enter your further details. \n");       //similarly, case 3 is made...
         printf("Enter your roll number: ");
         scanf("%d", &roll);
         if(roll<=1 && roll >= 1){
@@ -60,7 +62,7 @@ int main(){
 	}
         break;
 
-        case 4 : printf("You belong to 4th standard. Kindly enter your further details. \n");
+        case 4 : printf("You belong to 4th standard. Kindly enter your further details. \n");       //similarly, case 4 is made...
         printf("Enter your roll number: ");
         scanf("%d", &roll);
         if(roll<=1 && roll >= 1){
@@ -78,7 +80,7 @@ int main(){
 	}
         break;
 
-        case 5 : printf("You belong to 5th standard. Kindly enter your further details. \n");
+        case 5 : printf("You belong to 5th standard. Kindly enter your further details. \n");          //similarly, case 5 is made...
         printf("Enter your roll number: ");
         scanf("%d", &roll);
         if(roll<=1 && roll >= 1){
@@ -96,7 +98,7 @@ int main(){
 	}
         break;
 
-        case 6 : printf("You belong to 6th standard. Kindly enter your further details. \n");
+        case 6 : printf("You belong to 6th standard. Kindly enter your further details. \n");          //similarly, case 6 is made...
         printf("Enter your roll number: ");
         scanf("%d", &roll);
         if(roll<=1 && roll >= 1){
@@ -114,7 +116,7 @@ int main(){
 	}
         break;
 
-        case 7 : printf("You belong to 7th standard. Kindly enter your further details. \n");
+        case 7 : printf("You belong to 7th standard. Kindly enter your further details. \n");           //similarly, case 7 is made...
         printf("Enter your roll number: ");
         scanf("%d", &roll);
         if(roll<=1 && roll >= 1){
@@ -132,7 +134,7 @@ int main(){
 	}
         break;
 
-        case 8 : printf("You belong to 8th standard. Kindly enter your further details. \n");
+        case 8 : printf("You belong to 8th standard. Kindly enter your further details. \n");           //similarly, case 8 is made...
         printf("Enter your roll number: ");
         scanf("%d", &roll);
         if(roll<=1 && roll >= 1){
@@ -150,7 +152,7 @@ int main(){
 	}
         break;
 
-        case 9 : printf("You belong to 9th standard. Kindly enter your further details. \n");
+        case 9 : printf("You belong to 9th standard. Kindly enter your further details. \n");           //similarly, case 9 is made...
         printf("Enter your roll number: ");
         scanf("%d", &roll);
         if(roll<=1 && roll >= 1){
@@ -168,7 +170,7 @@ int main(){
 	}
         break;
 
-        case 10 : printf("You belong to 10th standard. Kindly enter your further details. \n");
+        case 10 : printf("You belong to 10th standard. Kindly enter your further details. \n");         //similarly, case 10 is made...
         printf("Enter your roll number: ");
         scanf("%d", &roll);
         if(roll<=1 && roll >= 1){
@@ -186,7 +188,7 @@ int main(){
 	}
         break;
 
-        case 11 : printf("You belong to 11th standard. Kindly enter your further details. \n");
+        case 11 : printf("You belong to 11th standard. Kindly enter your further details. \n");         //similarly, case 11 is made...
         printf("Enter your roll number: ");
         scanf("%d", &roll);
         if(roll<=1 && roll >= 1){
@@ -204,7 +206,7 @@ int main(){
 	}
         break;
 
-        case 12 : printf("You belong to 12th standard. Kindly enter your further details. \n");
+        case 12 : printf("You belong to 12th standard. Kindly enter your further details. \n");         //similarly, case 12 is made...
         printf("Enter your roll number: ");
         scanf("%d", &roll);
         if(roll<=1 && roll >= 1){
